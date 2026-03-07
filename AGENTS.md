@@ -5,6 +5,11 @@
 - Both `bun lint` and `bun typecheck` must pass before considering tasks completed.
 - NEVER run `bun test`. Always use `bun run test` (runs Vitest).
 
+## Git Remote And PR Policy
+
+- Create branches and PRs only on this fork: `dnnaji/t3code`.
+- Do not create branches or PRs on upstream (`pingdotgg/t3code`).
+
 ## Project Snapshot
 
 T3 Code is a minimal web GUI for using code agents like Codex and Claude Code (coming soon).
